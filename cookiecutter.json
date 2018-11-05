@@ -1,0 +1,5 @@
+{
+    "name": "Demo",
+    "repo_name": "{{ cookiecutter.name.lower().replace(' ','-') }}",
+    "module_name": "{{ cookiecutter.name.lower().replace(' ','_').replace('-','_') }}"
+}

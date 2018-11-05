@@ -1,0 +1,18 @@
+#!/usr/bin/env python
+# -*- coding:utf-8 -*-
+
+# Copyright 2015-2018 Cisco Systems, Inc.
+# All rights reserved.
+
+
+""" {{cookiecutter.module_name}} cli daemon """
+
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).absolute().parent.parent))
+
+from {{cookiecutter.module_name}}.cli import cli
+
+if __name__ == '__main__':
+    cli()
