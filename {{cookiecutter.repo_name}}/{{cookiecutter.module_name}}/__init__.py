@@ -4,8 +4,8 @@
 from flask import Flask
 
 from {{cookiecutter.module_name}}.api import BLUEPRINTS
-from cxcom.log import setup_log
-from cxcom.db.api import mysql_global_connection
+from cxcomm.log import setup_log
+from cxcomm.db.api import mysql_global_connection
 
 
 def create_app(config_name=None):
