@@ -2,7 +2,7 @@
 # All rights reserved.
 
 
-from cxcom.db.database import DataBase
+from cxcomm.db.database import DataBase
 
 
 class MyDatabase(DataBase):

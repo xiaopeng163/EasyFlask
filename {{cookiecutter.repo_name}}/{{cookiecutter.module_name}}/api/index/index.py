@@ -3,8 +3,8 @@
 
 import datetime
 
-from cxcom.rest.resource import BaseResource
-from cxcom.rest.response import JsonRes
+from cxcomm.rest.resource import BaseResource
+from cxcomm.rest.response import JsonRes
 
 
 class Index(BaseResource):
