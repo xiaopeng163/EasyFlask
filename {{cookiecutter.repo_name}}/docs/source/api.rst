@@ -13,7 +13,7 @@ following locations:
 .. toctree::
    :maxdepth: 2
    
-   api/demo
+   api/host
 
 
 
